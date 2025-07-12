@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common styles */
+.inter-font {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    font-family: "Merriweather";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 70px auto;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.btn {
+    height: 56px;
+    background-color: red;
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 48px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* hero section styles */
+.hero {
+    background-image: url(images/Banner-Image.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.hero-content {
+    background-image: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.hero-content h5 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+    padding: 10px 200px;
+}
+
+/* holiday offer section styles */
+.holiday-offer {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.holiday-offer h1 {
+    font-size: 90px;
+    font-weight: 700;
+    padding: 35px;
+    color: red;
+}
+
+.offer-subtitle h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+
+.offer-subtitle h2 {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 15px 0 40px;
+}
+
+/* banner styles */
+.banner-bg {
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+}
+
+.banner {
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 16px;
+}
+
+.banner-content {
+    padding: 120px;
+}
+
+.banner-content h1 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.banner-content a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin: 32px;
+
+}
+
+.banner-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    padding-bottom: 48px;
+}
+
+.banner-image {
+    padding: 67px 130px;
+}
+
+/* date-time section styles  */
+.date-time {
+    background-image: linear-gradient(rgba(255, 0, 0, .2), rgba(255, 0, 0, 0));
+    margin: 110px 0;
+    border-radius: 15px;
+    padding: 110px 0;
+}
+
+.date-time-content {
+    text-align: center;
+    line-height: 56px;
+}
+
+.date-time-content h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.date-time-content span {
+    color: red;
+}
