@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    max-width: 1320px;
+    max-width: 1300px;
     width: 100%;
     margin: 70px auto;
 }
@@ -48,6 +48,7 @@ p {
     background-image: url(images/Banner-Image.png);
     background-repeat: no-repeat;
     text-align: center;
+    border-radius: 16px;
 }
 
 .hero-content {
@@ -100,6 +101,7 @@ p {
 .banner-bg {
     background-image: url(images/Vectorrr.png);
     background-repeat: no-repeat;
+    border-radius: 16px;
 }
 
 .banner {
@@ -127,7 +129,6 @@ p {
     text-decoration: none;
     color: white;
     margin: 32px;
-
 }
 
 .banner-content p {
@@ -160,4 +161,108 @@ p {
 
 .date-time-content span {
     color: red;
+}
+
+/* banner-2 styles */
+.banner-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.banner-2-image img {
+    border: 15px solid red;
+    padding: 35px;
+    border-radius: 100%;
+    height: 440px;
+}
+
+.banner-2-content h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+
+.banner-2-content h1 {
+    font-size: 46px;
+    font-weight: bold;
+    margin: 22px 0 22px;
+}
+
+.banner-2-content img {
+    margin: 20px 0 0px;
+}
+
+/* holiday sales section styles */
+.holiday-sales-content {
+    text-align: center;
+    margin: 110px auto;
+    width: 820px;
+}
+
+.holiday-sales-content h6 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 16px;
+}
+
+.holiday-sales-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 28px;
+}
+
+span {
+    color: red;
+}
+
+.primary-image {
+    position: relative;
+}
+
+.box-image {
+    position: absolute;
+    top: -60px;
+    left: 30px;
+    height: 570px;
+    width: 660px;
+}
+
+.fifty-image {
+    position: relative;
+    left: 930px;
+    /* left theke 100px sore jabe */
+}
+
+.red-bar-image {
+    height: 200px;
+    width: 1300px;
+}
+
+/* portfolio section styles */
+
+.portfolio {
+    margin: 120px auto;
+}
+
+.portfolio-content {
+    width: 900px;
+}
+
+.portfolio-content h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: red;
+}
+
+.portfolio-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 17px 0;
+}
+
+.portfolio-images{
+    margin: 40px 0;
 }
